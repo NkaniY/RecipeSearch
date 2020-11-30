@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
                         List<ItemsModel> resultData = new ArrayList<>();
 
                         for(ItemsModel itemsModel:itemsModelList){
-                            if(itemsModel.getCategory().contains(searchStr)){
+                            if(itemsModel.getCategory().contains(searchStr) || itemsModel.getName().contains(searchStr)){
                                 resultData.add(itemsModel);
                             }
 

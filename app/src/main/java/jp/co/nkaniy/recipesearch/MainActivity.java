@@ -148,11 +148,9 @@ public class MainActivity extends AppCompatActivity {
 
             ImageView imageView = view.findViewById(R.id.imageView);
             TextView itemName = view.findViewById(R.id.itemName);
-            TextView itemRecipe = view.findViewById(R.id.itemRecipe);
 
             imageView.setImageResource(itemsModelListFiltered.get(position).getImage());
             itemName.setText(itemsModelListFiltered.get(position).getName());
-            itemRecipe.setText(itemsModelListFiltered.get(position).getRecipe());
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override

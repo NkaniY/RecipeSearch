@@ -19,13 +19,6 @@
             android:text="Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-        <TextView
-            android:id="@+id/itemRecipe"
-            android:textSize="0sp"
-            android:text="Recipe"
-            android:layout_below="@id/itemName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
 
     </RelativeLayout>
 
